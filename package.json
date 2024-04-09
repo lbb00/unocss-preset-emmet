@@ -1,0 +1,29 @@
+{
+  "name": "unocss-preset-emmet",
+  "version": "0.0.1",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "main": "./dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "vite build",
+    "test": "vitest run",
+    "gen:rules": "node scripts/gen-rules.js"
+  },
+  "type": "module",
+  "devDependencies": {
+    "vite": "^5.2.8",
+    "vitest": "^1.4.0"
+  },
+  "dependencies": {
+    "@unocss/core": "^0.59.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lbb00/unocss-preset-emmet.git"
+  },
+  "author": "lbb00"
+}
