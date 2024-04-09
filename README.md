@@ -13,7 +13,7 @@ Emmet-style presets, rules based on [Emmet Cheat Sheet](https://docs.emmet.io/ch
 
 ```html
 <!-- font-size: 16px; -->
-<p class="fw-16px">Emmet</p>
+<p class="fz-16px">Emmet</p>
 ```
 
 ## Usage

@@ -8,12 +8,12 @@ const uno = createGenerator({
 
 describe('test', () => {
   it('foo', async () => {
-    const { css } = await uno.generate(['fw-16px', 'ai:c'].join(' '), {
+    const { css } = await uno.generate(['fz-16px', 'ai:c'].join(' '), {
       preflights: false,
     })
     expect(css).toMatchInlineSnapshot(`
       "/* layer: default */
-      .fw-16px{font-weight:16px;}
+      .fz-16px{font-size:16px;}
       .ai\\:c{align-items:center;}"
     `)
   })
